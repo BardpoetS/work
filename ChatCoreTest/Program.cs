@@ -26,6 +26,7 @@ namespace ChatCoreTest
         Console.Write(m_PacketData[i] + ", ");
       }
             _Read();
+            Console.WriteLine("complete");
             Console.ReadLine();
     }
 
